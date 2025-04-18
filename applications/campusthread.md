@@ -2,11 +2,24 @@
 
 ## 🌟 Project Overview
 
-Tagline
+**Tagline**
 The student internet—powered by Web3.
 A global platform for 254 million students to connect, earn, and grow—powered by decentralized identity and token rewards on Polkadot.
-Brief Description
-Masari is building an AI-powered off-price marketplace that helps fashion brands move excess inventory profitably, while giving shoppers a personalized experience that saves them time and money. Fashion brands lose $2.5-5B in unsold stock annually, and new EU laws coming in 2026 will ban the destruction of inventory. At the same time, 82% of shoppers want AI to reduce research time, and 60-75% already shop resale or outlet. Masari taps into these shifts by combining AI personalization, price, and purpose. Now, we’re adding an on-chain transparency layer that lets brands verify specific product batches as excess stock. This badge-based module improves trust, supports compliance, and can be reused across the ecosystem as an open-source tool.
+
+**Brief Description**
+
+CampusThread is a Web3-native student community platform for the 254 million+ global students to share updates (like tweeting), ask questions, connect across campuses, and earn through content creation. We’re building the social economy of the student world—powered by the $CAMP token and backed by an AdTech layer that allows advertisers to reach student audiences, while sharing revenue with student creators.
+
+CampusThread empowers students to:
+
+Create and monetize content
+
+Engage with verified student communities
+
+Participate in social challenges, global discussions, and gamified experiences
+
+Tip or be tipped in $CAMP for valuable contributions
+
 
 
 
