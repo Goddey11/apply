@@ -250,54 +250,100 @@ Below is a detailed roadmap broken into **two milestones** (as required by the F
 - GitHub code for distribution logic  
 - Screenshots + demo of earnings dashboard
 
-**Important notes:**
-- Each milestone is capped at **$5,000 USD**
-- Milestones must be delivered within **3 months** of approval
-- The maximum grant amount is **$10,000 USD** per application (up to **$15,000 USD** per project in exceptional cases)
-- You will only receive payment after successful milestone delivery
+Great — based on the Polkadot grant guidelines, here’s how we can structure your **milestone and budget plan** to maximize your chances of approval (within the $10,000 USD limit):
 
-### Overview
+---
 
-- **Estimated Duration:** Duration of the whole project (maximum 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project
-- **Total Costs:** Requested amount in USD for the whole project (maximum $10,000 USD)
+## 🧱 Milestone Plan & Budget Breakdown
 
-> Note that deliverables 0a to 0d are mandatory. Please adapt their specification to your project.
+### 🔹 Overview
+- **Estimated Duration**: 3 months  
+- **Full-Time Equivalent (FTE)**: 2  
+- **Total Cost**: $10,000 USD  
+- **License**: MIT License
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... |
-| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant. |
-| 1. | Feature X | We will create a feature that will... (Please describe in detail) |
-| 2. | Feature Y | The Y feature will... (Please describe in detail) |
-| 3. | Feature Z | The Z feature will... (Please describe in detail) |
+---
 
-### 💰 Budget Breakdown
+### ✅ Milestone 1 – DID Integration & Creator Rewards Module (1.5 months) – $5,000
 
-Please provide a breakdown of your budget by milestone:
+| Deliverable | Specification |
+|------------|----------------|
+| **0a. License** | MIT License |
+| **0b. Documentation** | Provide inline code documentation + a user-friendly guide explaining DID onboarding and reward logic |
+| **0c. Testing and Guide** | Unit tests for DID verification flow and creator reward calculation. Testing guide included. |
+| **0d. Article** | Publish a blog post explaining how CampusThread leverages KILT Protocol for student identity and rewards creators with $CAMP |
+| **1. DID Integration with KILT Protocol** | Build a module to let users verify student status using KILT. Integrate into onboarding flow. Store proof hash (not sensitive info) on chain/off-chain securely. |
+| **2. Creator Rewards Engine** | Implement logic to track engagement (likes, shares, comments) and distribute $CAMP based on post performance. |
 
-| Milestone | Deliverables | Cost (USD) | Estimated Completion |
-| --- | --- | --- | --- |
-| 1 | Features X, Y | $5,000 | 1.5 months |
-| 2 | Feature Z | $5,000 | 1.5 months |
-| **Total** | | **$10,000** | **3 months** |
+---
+
+### ✅ Milestone 2 – Tipping System, Token Faucet, and AdTech Revenue Pool (1.5 months) – $5,000
+
+| Deliverable | Specification |
+|------------|----------------|
+| **0a. License** | MIT License |
+| **0b. Documentation** | Inline code comments and a simple tutorial on tipping, ad revenue, and faucet system |
+| **0c. Testing and Guide** | Unit tests for tipping transactions, faucet claim logic, and ad revenue pool distribution. Detailed test instructions. |
+| **0d. Article** | Publish article on CampusThread’s Web3 monetization—how students earn from engagement, fans, and ads |
+| **3. Tipping with $CAMP Token** | Build a tipping module for in-app and external use (e.g. TikTok creators). User can tip in $CAMP via wallet or app. |
+| **4. Faucet System** | Implement faucet for new users to earn a small $CAMP reward after identity verification to encourage onboarding. |
+| **5. Ad Revenue Distribution Pool** | Set up logic to distribute ad revenue ($CAMP) to verified creators whose posts hosted ads. Include admin dashboard (basic) to view impressions and payouts. |
+
+---
+
+## 💰 Summary Table
+
+| Milestone | Deliverables                        | Cost (USD) | Estimated Completion |
+|----------|--------------------------------------|------------|-----------------------|
+| 1        | DID Integration, Rewards Module      | $5,000     | 1.5 months            |
+| 2        | Tipping, Faucet, Ad Revenue Pool     | $5,000     | 1.5 months            |
+| **Total** |                                      | **$10,000** | **3 months**          |
+
+
+Here’s a polished draft of the final sections to complete your Fast-Grant application:
+
+---
 
 ## 🔮 Future Plans
 
-Please include:
+Following the Fast-Grant, our focus will be on **scaling CampusThread from a functional MVP to a thriving ecosystem** of students, brands, and Web3 contributors.
 
-- How you intend to continue development after the Fast-Grant
-- Any plans for seeking additional funding (other grants, VC funding, etc.)
-- Your vision for the project's growth and impact in the Polkadot ecosystem
+### 🔧 Post-Grant Development Plans
+- **Decentralized Storage Migration**: Transition from Firebase to IPFS/Filecoin or Crust Network for privacy-preserving post and profile storage.
+- **In-app DAO Governance**: Enable token holders to vote on feature proposals and university onboarding.
+- **Cross-Chain Compatibility**: Explore integrations with Polkadot parachains like Astar or Moonbeam for smart contract expansions.
+- **Mobile Wallet Integration**: Build a lightweight wallet directly into the app to simplify $CAMP onboarding and transactions.
+- **Campus Ambassador Program**: Recruit student leaders globally to onboard their peers and create local communities.
+
+### 💰 Additional Funding Plans
+We plan to raise additional capital through:
+- **VC Pre-Seed / Seed Round**: Following this grant, we will raise capital from blockchain-native funds focused on social, gaming, and Gen-Z adoption.
+- **Other Grant Programs**: Apply to:
+  - Moonbeam Grants (for mobile DApp development)
+  - KILT Builders Program (for deeper DID integrations)
+  - Web3 Foundation Open Grants (for DAO tooling)
+- **Community Crowdsale (planned Q4 2025)**: Offer $CAMP tokens to early users and contributors.
+
+### 🌍 Vision for Growth in the Polkadot Ecosystem
+CampusThread aims to become the **default Polkadot-native social identity and monetization layer for students** worldwide. Our goal is to:
+- Bring millions of Gen-Z users into Polkadot through a real-world use case
+- Promote **decentralized identity as a norm** for student verification and academic credentials
+- Showcase a new **AdTech model** where creators share in the upside transparently
+
+---
 
 ## ℹ️ Additional Information
 
-Here you can add any additional information that you think is relevant to this application, such as:
+### ✅ Work Completed So Far
+- Flutter frontend for MVP (completed and tested)
+- Firebase-based backend for user auth, feeds, and profile management
+- Tokenomics, distribution plan, and DID architecture (via KILT) designed
+- Ongoing user testing with student creators in Nigeria, India, and the Philippines
 
-- Work you have already done
-- If there are any other teams who have already contributed to the project
-- Other funding you may have applied for
+### 🤝 Collaborators
+- **In-house team**: 4 members (PM, Flutter dev, Firebase engineer, tokenomics lead)
+- **KILT Protocol**: Consultation on DID modules
+- **Moonbeam Ecosystem**: Exploring Substrate-based deployment
 
-Remember that the Fast-Grants Programme is designed as a first step for promising projects. We're looking for projects that can continue to grow beyond this initial funding.
+### 💵 Other Funding Applied
+- None yet granted. This Fast-Grant will be our first official funding to date.
