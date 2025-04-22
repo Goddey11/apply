@@ -57,28 +57,104 @@ We believe Web3 can power the next social media revolution, and students are the
 
 ### 🔍 Project Details
 
-We expect applicants to have a solid idea about the project's expected final state. Therefore, please submit (where relevant):
+### 🧱 **Technology Stack**
+- **Frontend**: Flutter (for mobile/web cross-platform development)
+- **Backend**: Firebase + Node.js Cloud Functions (currently powering core logic)
+- **Web3 Integration**:  
+  - **Polkadot Identity Layer** via **KILT Protocol** (for decentralized student verification)
+  - **Smart Contracts** & Tokenization on **Polkadot/Substrate** (for $CAMP utility token logic)
+- **Database**: Firestore (NoSQL, real-time database)
+- **AdTech Integration**: Custom-built ad server with impression tracking and reward distribution
+- **Analytics & Monitoring**: Firebase Analytics, Polkadot on-chain stats for token movement
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- Any PoC/MVP or other relevant prior work or research on the topic
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations
+### 🧩 **Architecture & Core Components**
+- **CampusThread App**:  
+  - Global student content feed (“tweet-like”)  
+  - Verified student profiles (DID-powered)  
+  - In-app wallet & tipping system using $CAMP  
+  - Creator dashboard (earnings, impressions, tips)
+- **Identity Layer**:  
+  - DID verification using KILT + Firebase fallback for early users  
+  - Backend service to validate issued credentials and manage wallet linkage
+- **Token Reward Engine**:  
+  - Smart contract (on Polkadot) tracking $CAMP distributions per activity  
+  - Reward logic for content impressions, engagement, and referrals
+- **AdTech Platform**:  
+  - Advertiser onboarding dashboard  
+  - Smart contracts for ad purchase, delivery, and automated revenue sharing with student creators
 
-### 🧩 Ecosystem Fit
+### 🧪 **PoC / MVP**
+- MVP live with Firebase backend and Flutter frontend  
+- Demo available on request (or we can link a test build)  
+- Token distribution logic prototyped with mock data (ready for Substrate integration)  
+- Identity verification simulated; KILT integration pending
 
-Help us locate your project in the Polkadot landscape and what problems it tries to solve by answering each of these questions:
+### 🎨 **UI Mockups (Examples)**  
+- Feed UI  
+- Wallet & Earnings  
+- Ad portal (admin + advertiser views)  
+- DID verification flow  
+> *(Mockups link or screenshots can be attached if needed)*
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Polkadot ecosystem?
-  - If so, how is your project different?
-  - If not, why might such a project not exist yet?
 
-> **Note**: We prioritize projects building on Plaza/Polkadot Hub, games, and DeFi applications, though all types of projects will be considered.
+### 🔧 **Data Models / API Specs**
+- **User**: id, DID, wallet address, school name, isVerified, totalEarned  
+- **Post**: id, userId, content, media, timestamp, impressionCount, engagementScore  
+- **AdCampaign**: id, advertiserId, budget, targeting, status, impressionsServed  
+- **RewardLog**: id, userId, type (tip, ad, referral), amount, timestamp  
+
+APIs are designed in REST (Firebase Cloud Functions) and will include hooks to interact with on-chain smart contracts on Polkadot.
+
+
+### 🚫 **Out of Scope**
+- CampusThread **does not** aim to:
+  - Compete with or replace TikTok, Instagram, or mainstream social platforms
+  - Provide full financial services (like DeFi lending/borrowing) in the initial phase
+  - Verify *non-students* or include anonymous content creators (content quality & trust is key)
+  - Store sensitive identity data on-chain—only proofs and hashes will be stored
+
+
+## 🧩 **Ecosystem Fit**
+
+### 🔗 **Where and how does your project fit into the ecosystem?**
+CampusThread introduces **a new social and economic layer to the Polkadot ecosystem**, focused on **global student engagement**. By integrating **decentralized identity (DID)** through KILT Protocol and issuing a utility token ($CAMP) on Polkadot, the platform:
+- Showcases **Web3’s ability to verify identity** and distribute rewards transparently at scale.
+- Bridges **social networking**, **content monetization**, and **on-chain token economies** in a way that’s currently underrepresented in the Polkadot space.
+- Acts as a **launchpad for young Web3 users**, onboarding millions of students into the Polkadot ecosystem.
+
+---
+
+### 🎯 **Who is your target audience?**
+- **Primary Users**: 254 million+ university students globally—especially those in emerging markets with limited earning opportunities or online visibility.
+- **Secondary Users**: Advertisers, brands, and recruiters interested in targeting the Gen Z student demographic with measurable ad ROI.
+- **Web3 Audience**: Builders, DAOs, and DeFi protocols looking to tap into a verified student base for partnerships, growth, or community engagement.
+
+### 💡 **What need(s) does your project meet?**
+1. **Verified Identity in Web3**: Students often lack a verifiable, privacy-preserving identity layer. CampusThread uses Polkadot’s KILT Protocol to enable student-only communities and rewards.
+2. **Content Monetization for Students**: Students create viral, valuable content daily but rarely monetize it. $CAMP rewards them for impressions, engagement, and tipping.
+3. **AdTech Transparency**: Traditional student platforms hoard ad revenue. Our system shares it transparently using smart contracts and on-chain tracking.
+4. **Global Connection**: Many students are isolated by geography or lack access to global education communities. CampusThread breaks this barrier.
+5. **Token Utility & Economic Literacy**: Students learn how crypto works through daily use of $CAMP—earning, tipping, unlocking perks, and participating in DAO-like activities.
+
+
+### 🧪 **Are there any similar projects in the Polkadot ecosystem?**
+Not currently. While some Polkadot projects explore:
+- **Gaming (Moonbeam, Astar)**
+- **DeFi (Acala, HydraDX)**
+- **DID (KILT)**
+
+…no existing platform combines:
+- A **global social network** tailored for students
+- A **verified identity system**
+- An **AdTech revenue-sharing model**
+- And a **utility token economy** for student creators
+
+
+### ❓ **Why might such a project not exist yet?**
+- **Focus on infrastructure over user-facing apps**: Polkadot has prioritized infrastructure (parachains, bridges, DeFi) over social/Web3-native communities.
+- **Lack of specialized focus**: Building for students requires understanding education, identity, monetization, and content—all at once.
+- **Token mechanics for social engagement** are still evolving, and CampusThread is leveraging best practices learned from past experiments like $STEPN or $AUDIO but adapted for students.
+
 
 ## 👥 Team
 
