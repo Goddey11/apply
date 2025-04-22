@@ -21,15 +21,39 @@ Participate in social challenges, global discussions, and gamified experiences
 Tip or be tipped in $CAMP for valuable contributions
 
 
+H**ow the Project Relates to / Integrates with Polkadot**:
+CampusThread leverages Polkadot to:
+
+Decentralized Student Identity (DID) — Using KILT Protocol, we enable privacy-preserving, verified student credentials without storing personal data. This adds trust to content, rewards, and ad targeting.
+
+$CAMP Token on Polkadot — Our utility token is used for:
+
+Creator rewards based on ad revenue and engagement
+
+Fan tipping and unlockable premium content
+
+Voting and community governance (DAO features)
+
+Gamified experiences (e.g., CampusQuest)
+
+Future NFT Use Cases — Students can mint achievement badges, collectibles, or marketplace items on a Polkadot parachain.
+
+Interoperability — We plan to integrate with other Polkadot-based services (e.g., wallets, games, marketplaces), growing the token’s use and value across the broader ecosystem.
+
+**Why We’re Building It:**
+We believe students are the most overlooked demographic in Web3. They are social, tech-savvy, and always online—but existing platforms don’t reward them for their influence, time, or creativity.
+
+We're building CampusThread because:
+
+We want to give students ownership over their identity, content, and data.
+
+We want to help students monetize their school life, not just survive it.
+
+We want to create a trusted, verified social layer that brands can advertise on—while redistributing ad revenue to creators.
+
+We believe Web3 can power the next social media revolution, and students are the ones who will lead it.
 
 
-Please provide the following:
-
-- If the name of your project is not descriptive, a tagline (one sentence summary)
-- A brief description of your project
-- An indication of how your project relates to / integrates into Polkadot
-- An indication of why your team is interested in creating this project
-- (Optional but big bonus points): [1-min video pitch](https://www.ycombinator.com/video/)
 
 ### 🔍 Project Details
 
