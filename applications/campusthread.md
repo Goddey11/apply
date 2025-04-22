@@ -203,7 +203,7 @@ The project is in the early stage of development, with the following components 
 ### 🔗 **Links**
 - [GitHub Repository (Private)](https://github.com) *(Access can be granted upon request)*  
 - [UI Mockup Sample (Figma)](https://figma.com) *(Link available for reviewers)*  
-- [Litepaper (Draft)](https://notion.so/campusthread-litepaper) *(Describes tokenomics and roadmap)*
+- [Litepaper ](https://docs.google.com/document/d/1s6dhGm1WLb6eoCjTFE6V9sP1Z-j_gzBTiaycL_Fn_Es/edit?usp=sharing)) *(Describes tokenomics and roadmap)*
 
 
 ## 📅 **Development Roadmap**
