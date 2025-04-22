@@ -156,21 +156,17 @@ Not currently. While some Polkadot projects explore:
 - **Token mechanics for social engagement** are still evolving, and CampusThread is leveraging best practices learned from past experiments like $STEPN or $AUDIO but adapted for students.
 
 
-## 👥 Team
+## 👥 Team members
 
-- **Team Name:** Name of your team. If you apply as a legal entity, please use its name.
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email
+- **Team Name:** Ojewoye wale Goddey
+- **Contact Name:** Ojewoye wale Goddey
+- **Contact Email:** ojewoyegoddey.ogd@gmail.com
 - **Website:** Your website, GitHub org, blog, or similar
 
-### Team members
-
-Please list the legal name of all grant beneficiaries. Solo developers (1-person teams) are eligible for funding.
 
 #### LinkedIn Profiles (if available)
+https://www.linkedin.com/in/wale-goddey-857249167/
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
 
 ### Team Code Repos
 
@@ -179,20 +175,80 @@ Please list the legal name of all grant beneficiaries. Solo developers (1-person
 
 Please also provide the GitHub accounts of all team members:
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- https://github.com/Goddey11
 
-### Team's experience
 
-Please describe the team's relevant experience, including any previous blockchain projects or contributions to the ecosystem.
+## 👥 **Team's Experience**
 
-## 📊 Development Status
+The **CampusThread** team consists of passionate builders with experience across Web2 and Web3 product development, mobile applications, and smart contract integration. Highlights include:
 
-If you've already started implementing your project, please provide a link and a description of the code. Otherwise, please provide some documentation on the research and other work you have conducted before applying.
+- **Lead Developer & Founder**: 5+ years in full-stack development, mobile-first platforms, and Firebase backend infrastructure. Recently built a crypto trading bot (“Bridge Capital”) with historical performance testing and exchange integration (Bybit API, Python/Node.js, Cloud Functions).
+- **Web3 Integration**: Experience working with smart contracts, ERC-20 token creation, and token reward mechanics. Actively researching Polkadot's identity layer (KILT) and Substrate-based token issuance.
+- **Community & AdTech Background**: Experience creating student-facing platforms and influencer growth tools (TikTok-based growth app), giving insight into content monetization and viral growth strategies.
+- **Design/UX**: Prior design and UX research experience on social platforms, including layout mockups and responsive UI for cross-platform deployment.
 
-## 📅 Development Roadmap
+While this is our **first Polkadot-native project**, our team is excited to transition from centralized systems to Web3-native experiences, leveraging Polkadot’s identity, scalability, and multichain architecture.
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, please describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality.
+
+## 📊 **Development Status**
+
+The project is in the early stage of development, with the following components already underway:
+
+### ✅ **Completed**
+- MVP mobile app mockups (built using Flutter & Firebase backend)
+- Firebase-hosted real-time database schema for posts, user profiles, likes, and ad modules
+- Community engagement module for student-generated content (Q&A, hashtags, local campus feeds)
+- Initial documentation and architecture for $CAMP utility token and monetization system
+
+### 🔗 **Links**
+- [GitHub Repository (Private)](https://github.com) *(Access can be granted upon request)*  
+- [UI Mockup Sample (Figma)](https://figma.com) *(Link available for reviewers)*  
+- [Litepaper (Draft)](https://notion.so/campusthread-litepaper) *(Describes tokenomics and roadmap)*
+
+
+## 📅 **Development Roadmap**
+
+Below is a detailed roadmap broken into **two milestones** (as required by the Fast-Grant structure), with verifiable deliverables for each.
+
+
+### 🚩 **Milestone 1: Decentralized Identity Integration & MVP Platform (3 months)**  
+**Grant Requested**: $5,000
+
+**Deliverables:**
+- ✅ DID integration using **KILT Protocol** to create verifiable, privacy-preserving student identities.
+- ✅ School email/domain verification + frontend DID display on profile.
+- ✅ Firebase-to-KILT sync for verified accounts (linking Web2 to Web3).
+- ✅ Launch MVP of CampusThread mobile app (Flutter):  
+  - Student sign-up, post/tweet, follow, and local feed  
+  - Firebase backend for storing content  
+  - Admin dashboard for content moderation
+
+**How we’ll verify it:**
+- Public testnet account creation using KILT  
+- Linkable DID display in the app  
+- GitHub repo + testflight/Android APK of MVP  
+- Demo video walkthrough
+
+---
+
+### 🚩 **Milestone 2: $CAMP Token Deployment & Ad Monetization (3 months)**  
+**Grant Requested**: $5,000
+
+**Deliverables:**
+- Deploy $CAMP token on **Polkadot parachain** (via Moonbeam or similar chain)
+- Smart contract logic for token distribution:
+  - Based on impressions, verified posts, and engagement
+  - Tipping system integrated in frontend
+- AdTech module MVP:
+  - Admin ad submission panel (basic targeting)
+  - Ad-to-content mapping logic
+- Creator earnings dashboard (tokens earned per post)
+
+**How we’ll verify it:**
+- Token smart contract published (with address on Polkadot parachain)  
+- Live demo of tipping & ad earning  
+- GitHub code for distribution logic  
+- Screenshots + demo of earnings dashboard
 
 **Important notes:**
 - Each milestone is capped at **$5,000 USD**
